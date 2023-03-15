@@ -4,7 +4,7 @@ import styles from "@/styles/Hero.module.css"
 export default function Hero(){
     return <main className={styles.wrapper}>
         <div className={styles.overlay}>
-            <div><p style={{fontSize:"3rem", fontWeight:"500", textAlign:"center" , color:"white"}}>It's adventure time!!!</p></div>
+            <div><p style={{fontSize:"3rem", fontWeight:"500", textAlign:"center" , color:"white"}}>It&#39;s adventure time!!!</p></div>
         </div>
         <div className={styles.imageWrapper}>
             
