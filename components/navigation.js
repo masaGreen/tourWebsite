@@ -7,11 +7,11 @@ export default function Navigation(){
     return (
         <nav className={styles.wrapper}>
            <div className={styles.logo}>
-            <h2><Link href={"/"} className={styles.link}>MY  LOGO</Link></h2>
+            <h2><Link href={"/"} className={styles.link}>LOGO</Link></h2>
                 
             </div> 
             <div className={styles.navLinks}>
-                <Link href={"/"} className={styles.link}>Home</Link>
+                <Link href={"/"} className={`${styles.link} ${styles.hide}`}>Home</Link>
                 <div className={styles.linksDropdown}>
                     <button className={styles.menu_btn}>
                         Popular Tours
