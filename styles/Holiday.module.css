@@ -1,0 +1,63 @@
+
+
+
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-inline: 20%;
+   flex-direction: column;
+  gap:2rem;
+   position: relative;
+}
+
+.cardImgwrapper{
+    position: relative;
+    width: 100%;
+    height: calc(90vh - 4rem);
+  
+}
+.cardContent{
+    padding: 0.8rem;
+    flex:1.2;
+    display: flex;
+    
+    flex-direction: column;
+    gap:2rem;
+}
+.cardTitle{
+   flex: 1;
+}
+.cardDescription{
+  
+    flex: 3;
+    font-size: 1rem; 
+    
+      
+    }
+.cardDescription>p{
+    margin: 2rem;
+}
+@media screen and (max-width:500px ){
+    .card{
+        
+        padding-inline: 0.2rem;
+        
+     }
+     .cardImgwrapper{
+        height: 40vh;
+     }
+}
+@media screen and (min-width:500px ) and (max-width:700px) {
+    .card{
+        
+       padding-inline: 1rem;
+       
+    }
+    .cardImgwrapper{
+        height: 40vh;
+     }
+    
+}

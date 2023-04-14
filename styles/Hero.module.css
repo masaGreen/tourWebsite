@@ -1,8 +1,13 @@
 .wrapper{
     background-color: #D1D1D1;
-    height: 50vh;
+    box-shadow: whitesmoke;
+    height: calc(90vh - 4rem);
+   overflow: hidden;
     position: relative;
+   
 }
+
+
 .overlay{
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
@@ -13,15 +18,29 @@
     width: 100%;
    z-index: 2;
 }
+.slider{
+    display: flex;
+    width:100%;
+    overflow: hidden;
+    align-items:center ;
+ 
+}
 .imageWrapper{
     width: 100%;
     height: 100%;
     position: relative;
-    overflow: hidden;
     background-position: center;
-  
+ 
 }
-.img{
-    object-fit: cover;
 
+@media screen and (max-width:700px) {
+    .wrapper{
+        
+        height: 20vh;
+        
+    }
+   
+   
+   
 }
+

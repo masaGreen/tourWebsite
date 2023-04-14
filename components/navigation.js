@@ -5,7 +5,9 @@ import styles from "@/styles/Navigation.module.css"
 export default function Navigation(){
     
     return (
+        
         <nav className={styles.wrapper}>
+            
            <div className={styles.logo}>
             <h2><Link href={"/"} className={styles.link}>LOGO</Link></h2>
                 
@@ -25,6 +27,7 @@ export default function Navigation(){
                 <Link href={"/contacts"} className={styles.link}><li className={styles.link}>Contacts</li></Link>
             </div>
         </nav>
+    
        )
    
 }

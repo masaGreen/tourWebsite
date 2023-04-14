@@ -1,6 +1,6 @@
 import '@/styles/globals.css'
 import Layout from "@/components/layout"
-import createEmotionCache from '@/utilities/createEmotionCache'
+import "@/styles/corousel.css"
 
 
 export default function App({ Component, pageProps }) {
