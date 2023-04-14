@@ -18,7 +18,7 @@ export default function Card({imageUrl}){
                 <p>
                 A trip to Maasai Mara, also known as Masai Mara National Reserve, 
                 is an exciting adventure for wildlife enthusiasts and nature lovers. 
-                Here's what a typical trip to Maasai Mara entails:... <Link href="/holidays/ocean"><button className={styles.moreBtn}>More</button></Link>
+                Here&#39;s what a typical trip to Maasai Mara entails:... <Link href="/holidays/ocean"><button className={styles.moreBtn}>More</button></Link>
 {/* 
                     Getting There: Maasai Mara is located in southwestern Kenya and can be accessed by air or road. If you're flying, you'll land at Mara Serena Airport or Keekorok Airport, both of which are located within the reserve. If you're driving, the journey takes about five to six hours from Nairobi.
 
