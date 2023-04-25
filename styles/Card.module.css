@@ -36,8 +36,11 @@
    flex: 1;
 }
 .cardDescription{
+    flex: 2;
+    padding-block: 2rem;
+}
+.cardDescription>p{
   
-    flex: 3;
     font-size: 1rem; 
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -47,6 +50,7 @@
     }
 .moreBtn{
 padding: 0.2rem;
+margin-top: 0.2rem;
 background-color: teal;
 border: none;
 border-radius: 4px;
@@ -55,7 +59,41 @@ cursor: pointer ;
 
 
 }
+@media screen and (max-width:700px) {
+
+    .card{
     
+    height: 60vh;
+    
+    
+}
+    .cardContent{
+        padding: 0.2rem;
+        flex:1.2;
+        display: flex;
+        flex-direction: column;
+        gap:0.2rem;
+    }
+    .cardTitle{
+        flex:1;
+     }
+     .cardDescription{
+        flex: 3;
+     }
+    .cardDescription>p{
+  
+        
+        font-size: 1rem; 
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3; 
+        overflow: hidden;
+          
+        }
+
+    
+}
+   
 
 
 

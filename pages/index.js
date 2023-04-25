@@ -8,9 +8,9 @@ import Card from '@/components/Card'
 const inter = Inter({ subsets: ['latin'] })
 
 const imageUrls = ["oceanview", "cheetahtree", "hero"]
-export default function Home() {
+export default function Home(props) {
 
-  
+ 
   return (
     <>
       <Head>
@@ -36,24 +36,26 @@ export default function Home() {
           </p>
 
         </div>
-        <h1 style={{fontWeight:"600", fontSize:"2rem", textAlign:"center", textDecoration:"underline", marginBlock:"2rem", color:"orange", cursor:"pointer"}}>Popular Destinations</h1>
-        <div className={styles.cards}>
-
-          {
-            imageUrls.map((image, index)=>{
-              return <Card imageUrl={image} key={index}/>
+        <h1 style={{fontWeight:"600", fontSize:"2rem", textAlign:"center", textDecoration:"underline", marginBlock:"2rem", color:"orange", cursor:"pointer"}}>Upcoming tours & holidays</h1>
+        
+         <div className={styles.cards}>
+          {!props ? <h1>loading ...</h1>:
+          
+            props.data.upcoming?.map((item, index)=>{
+              return <Card item={item} key={index}/>
             })
-          }
+}
           
         </div>
-        <h1 style={{fontWeight:"600", fontSize:"2rem", textAlign:"center", textDecoration:"underline", marginBlock:"2rem", color:"purple", cursor:"pointer"}}>Upcoming tours & holidays</h1>
+        <h1 style={{fontWeight:"600", fontSize:"2rem", textAlign:"center", textDecoration:"underline", marginBlock:"2rem", color:"purple", cursor:"pointer"}}>Popular Destinations</h1>
         <div className={styles.cards}>
 
-          {
-            imageUrls.map((image, index)=>{
-              return <Card imageUrl={image} key={index}/>
-            })
-          }
+        {!props ? <h1>loading ...</h1>:
+          
+          props.data.popular?.map((item, index)=>{
+            return <Card item={item} key={index}/>
+          })
+}
           
         </div>
        </section>
@@ -61,3 +63,21 @@ export default function Home() {
     </>
   )
 }
+
+import fs from 'fs';
+import path from "path";
+
+export async function getStaticProps() {
+  // Read the file contents
+  const data = await fs.promises.readFile(path.resolve('data.json'));
+  
+  // Parse the JSON data
+  const jsonData = JSON.parse(data);
+  
+  return {
+    props: {
+      data: jsonData
+    }
+  };
+}
+

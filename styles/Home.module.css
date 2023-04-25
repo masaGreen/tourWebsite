@@ -62,7 +62,7 @@
         background-size: cover;
         background-image: url("../public/oceanview.jpg");
         padding-inline: 0.5rem;
-        color: black;
+       
     }
     .content p{
         font-size: 0.9rem;

@@ -1,0 +1,62 @@
+ {
+  
+    "upcoming":[
+      {
+        "id":0,
+        "image":"oceanview.jpg",
+        "title":"A diani beach and marine life experience.",
+        "description": " Diani Beach is a stunning stretch of white sand beach located on the south coast of Kenya, about 30 km south of Mombasa. The beach is known for its crystal-clear waters, excellent snorkeling and diving opportunities, and laid-back atmosphere."
+
+      },
+      {
+        "id":1,
+        "image":"hellsgate.jpg",
+        "title":" 1 Day trip to Hellsgate National Park",
+        "description": "Hell's Gate National Park is located in the Rift Valley Province of Kenya,about 90 km from Nairobi. It is known for its unique geology, which includes towering cliffs, gorges, and hot springs. The park is home to a variety of wildlife, including buffalo, giraffe, baboons, and a large number of birds."
+      },
+      {
+        "id":2,
+        "image":"mtkenya.jpg",
+        "title":" Experience the beautiful Mt Kenya National park and Mountain.",
+        "description": "Mount Kenya is the highest mountain in Kenya and the second-highest in Africa, with its highest peak, Batian, standing at 5,199 meters above sea level. The mountain is a popular destination for hikers, climbers, and nature lovers, thanks to its stunning landscapes and rich biodiversity."
+      },
+      {
+        "id":3,
+        "image":"longonot.jpg",
+        "title":" Hike the majestic Mt Longonot.",
+        "description": "Mt. Longonot is a dormant volcano located in the Great Rift Valley of Kenya, about 90 km northwest of Nairobi. Hiking Mt. Longonot is a popular activity for outdoor enthusiasts and adventure seekers visiting Kenya."
+      },
+
+      {
+        "id":4,
+        "image":"aboretum.jpg",
+        "title":" Loop trail-Nairobi Aboretum.",
+        "description": "The Nairobi Arboretum Loop Trail is a popular nature walk located in the heart of Nairobi, Kenya. The trail is approximately 3.2 kilometers long and takes visitors through the lush greenery of the arboretum, which is home to over 300 different species of trees and shrubs"
+      }
+      
+    ],
+    "popular":[
+        {
+            "id":5,
+            "image":"oceanview.jpg",
+            "title":"3 Days Maasai Mara Group Joining Safari (2023 wildebeest migration)",
+            "description": "A trip to Maasai Mara, also known as Masai Mara National Reserve, is an exciting adventure for wildlife enthusiasts and nature lovers. Here's what a typical trip to Maasai Mara entails:..."
+    
+          },
+          {
+            "id":6,
+            "image":"cheetahtree.jpg",
+            "title":"Maasai mara",
+            "description": "A trip to Maasai Mara, also known as Masai Mara National Reserve, is an exciting adventure for wildlife enthusiasts and nature lovers. Here's what a typical trip to Maasai Mara entails:..."
+          },
+          {
+            "id":7,
+            "image":"lioncab.jpg",
+            "title":"Maasai mara",
+            "description": "A trip to Maasai Mara, also known as Masai Mara National Reserve, is an exciting adventure for wildlife enthusiasts and nature lovers. Here's what a typical trip to Maasai Mara entails:..."
+          }
+    ]
+      
+  
+
+  }

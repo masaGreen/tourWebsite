@@ -10,7 +10,7 @@ export default function Navigation(){
             
            <div className={styles.logo}>
             <h2><Link href={"/"} className={styles.link}>LOGO</Link></h2>
-                
+              <div><Link href="https://wa.me/254716794207"><button>whatsapp?</button></Link></div>  
             </div> 
             <div className={styles.navLinks}>
                 <Link href={"/"} className={`${styles.link} ${styles.hide}`}>Home</Link>
