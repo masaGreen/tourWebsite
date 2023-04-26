@@ -14,10 +14,10 @@ export default function Home(props) {
   return (
     <>
       <Head>
-        <title>Tour Website</title>
+        <title>GreenPrint tours and Travel</title>
         <meta name="description" content="Tour with us" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/logo.jpg" />
       </Head>
       <main className={styles.main}>
        <Hero/>
