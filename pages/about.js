@@ -18,7 +18,7 @@ export default function About() {
             Founded in 2023, GreenPrint Tour and Travel is quickly becoming one of
             the most respected and reliable tour companies in the country. Our
             company is operated by people who are passionate about showcasing
-            their country's beauty and culture to visitors from around the
+            their country&nbps;s beauty and culture to visitors from around the
             world.
           </p>
 
