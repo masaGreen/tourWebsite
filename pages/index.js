@@ -47,15 +47,15 @@ export default function Home(props) {
 }
           
         </div>
-        <h1 style={{fontWeight:"600", fontSize:"2rem", textAlign:"center", textDecoration:"underline", marginBlock:"2rem", color:"purple", cursor:"pointer"}}>Popular Destinations</h1>
+        {/* <h1 style={{fontWeight:"600", fontSize:"2rem", textAlign:"center", textDecoration:"underline", marginBlock:"2rem", color:"purple", cursor:"pointer"}}>Popular Destinations</h1> */}
         <div className={styles.cards}>
 
-        {!props ? <h1>loading ...</h1>:
+        {/* {!props ? <h1>loading ...</h1>:
           
           props.data.popular?.map((item, index)=>{
             return <Card item={item} key={index}/>
           })
-}
+} */}
           
         </div>
        </section>

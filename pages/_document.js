@@ -7,7 +7,7 @@ export default function Document() {
       <Head >
      
       </Head>
-      <body style={{background:"#E8E8E8",height:"100vh - 4rem"}}>
+      <body style={{background:"#E8E8E8",height:"100vh - 6rem"}}>
         <Main />
         <NextScript />
       </body>

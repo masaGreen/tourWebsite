@@ -1,0 +1,15 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(50vh - 6rem);
+    background-color: #87A96B;
+    
+}
+.medialinks{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

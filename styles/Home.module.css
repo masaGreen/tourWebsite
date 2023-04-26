@@ -2,11 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
- padding: 2rem;
+ padding: 1rem;
  flex-direction: column;
  background-image: url("../public/lioncab.jpg");
  background-size: cover;
  position: relative;
+
 }
 .overlay{
     background-color: rgba(0, 0, 0, 0.3);
@@ -62,7 +63,7 @@
         background-size: cover;
         background-image: url("../public/oceanview.jpg");
         padding-inline: 0.5rem;
-       
+        margin-top: -5rem;
     }
     .content p{
         font-size: 0.9rem;

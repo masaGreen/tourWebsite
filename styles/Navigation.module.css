@@ -2,18 +2,29 @@
 .wrapper{
     display: flex;
     align-items: center;
-    height: 4rem;
-    background-color: #D1D1D1;
+    height: 6rem;
+    background-color: #8A9A5B;
+    /* background-color: #D1D1D1; */
     color: black;
     position: sticky;
     top: 0;
     z-index: 100;
     font-size: larger;
+    /* background-color: rgb(243, 31, 31); */
 }
-.logo{
-    width: 20%;
-    text-align: center;
-    color: teal;
+.logoWrapper{
+    position: relative;
+    width: 15%;
+    height: 100%;
+      
+
+}
+.logoImg{
+    background-position: center;
+    background-size: contain;
+    border-radius: 40px;
+
+    
 }
 .navLinks{
     flex-grow: 1;
@@ -27,6 +38,9 @@
     position: relative;
     display: flex;
 }
+
+
+
 .menu_btn{
   padding: 0.2rem 0.4rem;
   outline: none;
@@ -37,7 +51,8 @@
 
 .links{
     max-width: 150px;
-    background-color: rgb(131, 151, 168);
+    background-color: transparent;
+    /* background-color: rgb(131, 151, 168); */
     display: none;    
     position: absolute;
     top:1.4rem;
@@ -55,7 +70,8 @@
     text-decoration: none;
     list-style: none;
    padding: 0.2rem 0.4rem;
-    background-color: #D1D1D1;
+   background-color: transparent;
+    /* background-color: #D1D1D1; */
 }
 .droplink:hover{
     background-color:rgb(115, 146, 173);
@@ -71,9 +87,20 @@
         padding:1rem;
         gap:0.2rem;
     }
-    .logo{
-        font-size: 1rem;
+    .logoWrapper{
+        width: 30%;
     }
+    .logoImg{
+        background-position: center;
+        background-size: contain;
+        border-radius: 10px;
+    
+        
+    }
+    .sm{
+        display: none;
+    }
+
     .hide{
         display: none;
     }
