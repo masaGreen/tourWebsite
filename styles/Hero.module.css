@@ -43,6 +43,9 @@
 .control-dots{
     display: none;
 }
+.dot{
+    display: none;
+}
 
 .legend {
   transition: all .5s ease-in-out;

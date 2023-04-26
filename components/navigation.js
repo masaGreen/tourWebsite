@@ -85,7 +85,7 @@ export default function Navigation() {
                     </div>
                 </div> */}
         <Link href={"/about"} className={styles.link}>
-          <li className={`${styles.link} ${styles.sm}`}>About us</li>
+          <li className={`${styles.link} ${styles.hide}`}>About us</li>
         </Link>
         <Link href={"/contacts"} className={`${styles.link} ${styles.sm}`}>
           <li className={styles.link}>Contacts</li>
