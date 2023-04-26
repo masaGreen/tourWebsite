@@ -36,9 +36,12 @@
     align-items:center ;
  
 }
-.carousel.carousel-slider{
+.carousel-slider{
     height:100%;
     width: 100%;
+}
+.control-dots{
+    display: none;
 }
 
 .legend {

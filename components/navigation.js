@@ -39,7 +39,7 @@ export default function Navigation() {
             />
           </Link>
         </div>
-        <div className={styles.sm}>
+        <div className={styles.hide}>
           <Link href="/">
             <FontAwesomeIcon
               icon={faFacebook}
@@ -55,7 +55,7 @@ export default function Navigation() {
             />
           </Link>
         </div>
-        <div className={styles.sm}>
+        <div className={styles.hide}>
           <Link href="/">
             <FontAwesomeIcon
               icon={faInstagram}
@@ -85,7 +85,7 @@ export default function Navigation() {
                     </div>
                 </div> */}
         <Link href={"/about"} className={styles.link}>
-          <li className={`${styles.link} ${styles.hide}`}>About us</li>
+          <li className={`${styles.link} ${styles.sm}`}>About us</li>
         </Link>
         <Link href={"/contacts"} className={`${styles.link} ${styles.sm}`}>
           <li className={styles.link}>Contacts</li>
