@@ -12,13 +12,20 @@ export default function Footer() {
          
           <div
             style={{
+              
               display: "flex",
               justifyContent: "flex-start",
               alignItems: "center",
               gap: "1rem",
             }}
           >
-            <FontAwesomeIcon icon={faPhone} />
+            <FontAwesomeIcon icon={faPhone}  style={{
+              color: "white",
+              fontSize:"1rem",
+              height: "3rem",
+              width: "3rem",
+              borderRadius: "50%"
+              }}/>
             <h4>+254712729825</h4>
           </div>
           <div
@@ -29,11 +36,12 @@ export default function Footer() {
               gap: "1rem",
             }}
           >
-            <FontAwesomeIcon icon={faEnvelope} />
-            <h4>
-              Email us:
-              <i style={{ color: "teal" }}>greenprinttours@gmail.com</i>
-            </h4>
+            <FontAwesomeIcon icon={faEnvelope} style={{fontSize:"1.2rem", height: "2rem",
+              width: "2rem"}}/>
+            <div style={{display:"flex", alignItems:"center", gap:"0.5rem"}}>
+              <p className={styles.iconCapture}>greenprinttours@gmail.com</p>
+              
+            </div>
           </div>
           <div
             style={{
@@ -49,11 +57,13 @@ export default function Footer() {
                 style={{
                   color: "white",
                   background: "rgb(11, 158, 11)",
+                  height: "3rem",
+                  width: "3rem",
                   borderRadius: "50%",
                 }}
               /> </Link>
 
-              Chat with us
+              Click to chat.
            
           </div>
         </div>
