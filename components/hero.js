@@ -20,9 +20,9 @@ export default function Hero() {
           stopOnHover={true}
         >
           <div>
-            <img src="/oceanview.jpg" alt="" className={styles.img} />
+            <img src="/samburu.jpg" alt="" className={styles.img} />
             <h2 className={styles.legend}>
-              A diani beach and marine life experience.
+              Visit Samburu National Park.
               <Link href="/holidays/0">
                 <button className={styles.links}>see more</button>
               </Link>
