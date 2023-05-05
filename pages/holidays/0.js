@@ -13,7 +13,7 @@ export default function Card() {
         </div>
         <div className={styles.cardDescription}>
           <p>
-          Samburu National Park is located in northern Kenya and is known for its unique wildlife species that are not found in other Kenyan national parks. A visit to Samburu National Park usually involves a game drive, where visitors can spot various animals, including the famous "Samburu Special Five," which includes the Somali ostrich, Grevy's zebra, reticulated giraffe, Beisa oryx, and gerenuk.
+          Samburu National Park is located in northern Kenya and is known for its unique wildlife species that are not found in other Kenyan national parks. A visit to Samburu National Park usually involves a game drive, where visitors can spot various animals, including the famous <strong>Samburu Special Five</strong>, which includes the Somali ostrich, Grevy&nbsp;s zebra, reticulated giraffe, Beisa oryx, and gerenuk.
           </p>
 
           <p>
