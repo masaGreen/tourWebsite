@@ -32,15 +32,15 @@ export default function Navigation() {
               style={{
                 color: "white",
                 background: "rgb(11, 158, 11)",
-                height: "3rem",
-                width: "3rem",
+                height: "2rem",
+                width: "2rem",
                 borderRadius: "50%",
               }}
             />
           </Link>
         </div>
-        <div className={styles.hide}>
-          <Link href="/">
+        <div >
+          <Link href="https://www.facebook.com/Greenprinttours/">
             <FontAwesomeIcon
               icon={faFacebook}
               style={{
@@ -48,8 +48,8 @@ export default function Navigation() {
                 background: "white",
                 border: "none",
                 outline: "none",
-                height: "3rem",
-                width: "3rem",
+                height: "2rem",
+                width: "2rem",
                 borderRadius: "50%",
               }}
             />
@@ -64,14 +64,16 @@ export default function Navigation() {
                 background: "rgb(245,50,50)",
                 border: "none",
                 outline: "none",
-                height: "3rem",
-                width: "3rem",
+                height: "2rem",
+                width: "2rem",
                 borderRadius: "50%",
               }}
             />
           </Link>
         </div>
+        <div className={styles.subnav}>
 
+        
         <Link href={"/"} className={styles.link}>
           Home
         </Link>
@@ -90,6 +92,7 @@ export default function Navigation() {
         <Link href={"/contacts"} className={`${styles.link} ${styles.sm}`}>
           <li className={styles.link}>Contacts</li>
         </Link>
+        </div>
       </div>
     </nav>
   );

@@ -1,11 +1,11 @@
 import styles from "@/styles/Holiday.module.css";
 import Image from "next/image";
-
+// "start": "NODE_ENV=production node server.js"
 export default function Card() {
   return (
     <div className={styles.card}>
       <div className={styles.cardImgwrapper}>
-        <Image src="/aboretum.jpg" alt="" fill className={styles.cardImg} />
+        <Image src="/aboretum.jpg" alt="Loop trail -Nairobi Arboretum" fill className={styles.cardImg} />
       </div>
       <div className={styles.cardContent}>
         <div className={styles.cardTitle}>

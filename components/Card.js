@@ -5,7 +5,7 @@ export default function Card({ item }) {
   return (
     <div className={styles.card}>
       <div className={styles.cardImgwrapper}>
-        <Image src={`/${item?.image}`} alt="" fill className={styles.cardImg} />
+        <Image src={`/${item?.image}`} alt={`${item?.title}`} fill className={styles.cardImg} />
       </div>
       <div className={styles.cardContent}>
         <div className={styles.cardTitle}>

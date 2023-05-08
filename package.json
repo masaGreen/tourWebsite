@@ -1,7 +1,8 @@
 {
-  "name": "nexttour",
+  "name": "greenprint",
   "version": "0.1.0",
   "private": true,
+  "homepage": "www.greenprint.co.ke",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,6 +23,7 @@
     "npm": "^9.6.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-responsive-carousel": "^3.2.23"
+    "react-responsive-carousel": "^3.2.23",
+    "sharp": "^0.32.1"
   }
 }
