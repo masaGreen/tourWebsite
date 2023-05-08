@@ -6,7 +6,10 @@ import {
   faFacebook,
   faInstagram,
   faWhatsapp,
+  
 } from "@fortawesome/free-brands-svg-icons";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faContactBook } from "@fortawesome/free-regular-svg-icons";
 
 export default function Navigation() {
   return (
@@ -71,11 +74,23 @@ export default function Navigation() {
             />
           </Link>
         </div>
-        <div className={styles.subnav}>
+      
 
         
-        <Link href={"/"} className={styles.link}>
-          Home
+        <Link href={"/"} className={`${styles.link} ${styles.home}`}>
+        <FontAwesomeIcon
+              icon={faHome}
+              style={{
+                color: "rgb(100, 110, 70)",
+               
+                border: "none",
+                outline: "none",
+                height: "2rem",
+                width: "2rem",
+              
+              }}
+            />
+          <h4 className={styles.d} >Home</h4>
         </Link>
         {/* <div className={styles.linksDropdown}>
                     <button className={styles.menu_btn}>
@@ -87,12 +102,26 @@ export default function Navigation() {
                     </div>
                 </div> */}
         <Link href={"/about"} className={styles.link}>
-          <li className={`${styles.link} ${styles.hide}`}>About us</li>
+          <li className={`${styles.link} ${styles.hide}`}><h4>About us</h4></li>
         </Link>
-        <Link href={"/contacts"} className={`${styles.link} ${styles.sm}`}>
-          <li className={styles.link}>Contacts</li>
+        <Link href={"/contacts"} className={`${styles.link} ${styles.sm} `}>
+          
+          <FontAwesomeIcon
+              icon={faContactBook}
+              style={{
+                color: "rgb(100, 110, 70)",
+               
+                border: "none",
+                outline: "none",
+                height: "2rem",
+                width: "2rem",
+              
+              }}
+            />
+             <h4 className={styles.d} >Contacts</h4>
+            
+            
         </Link>
-        </div>
       </div>
     </nav>
   );
