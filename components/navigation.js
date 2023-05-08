@@ -90,8 +90,11 @@ export default function Navigation() {
               
               }}
             />
-          <h4 className={styles.d} >Home</h4>
-        </Link>
+             </Link>
+          <Link href={"/"} className={`${styles.link} ${styles.d}`}>
+          <h4>Home</h4>
+          </Link>
+       
         {/* <div className={styles.linksDropdown}>
                     <button className={styles.menu_btn}>
                         Popular Tours
@@ -101,10 +104,10 @@ export default function Navigation() {
                         <Link href={"/about"} className={styles.droplink}>international Tours</Link>
                     </div>
                 </div> */}
-        <Link href={"/about"} className={styles.link}>
-          <li className={`${styles.link} ${styles.hide}`}><h4>About us</h4></li>
+        <Link href={"/about"} className={`${styles.link} ${styles.hide}`}>
+          <li className={`${styles.link} `}><h4>About us</h4></li>
         </Link>
-        <Link href={"/contacts"} className={`${styles.link} ${styles.sm} `}>
+        <Link href={"/contacts"} className={`${styles.link} ${styles.home} `}>
           
           <FontAwesomeIcon
               icon={faContactBook}
@@ -118,10 +121,13 @@ export default function Navigation() {
               
               }}
             />
-             <h4 className={styles.d} >Contacts</h4>
+            </Link>
+            <Link href={"/"} className={`${styles.link} ${styles.d}`}>
+             <h4 >Contacts</h4>
+             </Link>
             
             
-        </Link>
+        
       </div>
     </nav>
   );
