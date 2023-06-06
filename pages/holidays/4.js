@@ -3,7 +3,7 @@ import Image from "next/image";
 // "start": "NODE_ENV=production node server.js"
 export default function Card() {
   return (
-    <div className={styles.card}>
+    <div className={styles.card} id="card">
       <div className={styles.cardImgwrapper}>
         <Image src="/aboretum.jpg" alt="Loop trail -Nairobi Arboretum" fill className={styles.cardImg} />
       </div>

@@ -4,7 +4,7 @@ import { faFacebook, faInstagram,  faWhatsapp ,faPhone} from "@fortawesome/free-
 import Link from "next/link";
 export default function contacts(){
     return(
-    <div className={styles.card}>
+    <div className={styles.card} id="card">
         
           <div className={styles.cardDescription}>
         

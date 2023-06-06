@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Card() {
   return (
-    <div className={styles.card}>
+    <div className={styles.card} id="card">
       <div className={styles.cardImgwrapper}>
-        <Image src="/oceanview.jpg" alt="" fill className={styles.cardImg} />
+        <Image src="/samburu.jpg" alt="" fill className={styles.cardImg} />
       </div>
       <div className={styles.cardContent}>
         <div className={styles.cardTitle}>

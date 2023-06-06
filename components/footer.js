@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
       </section>
       <div className={styles.copy}>
-        <p className={styles.copyp}>copyright &copy; 2023</p>
+        <p className={styles.copyp}>copyright &copy; {new Date().getFullYear()}</p>
       </div>
     </main>
   );

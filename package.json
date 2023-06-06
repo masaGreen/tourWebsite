@@ -4,10 +4,9 @@
   "private": true,
   "homepage": "www.greenprint.co.ke",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@fontsource/roboto": "^4.5.8",

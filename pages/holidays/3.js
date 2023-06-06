@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Card() {
   return (
-    <div className={styles.card}>
+    <div className={styles.card} id="card">
       <div className={styles.cardImgwrapper}>
         <Image src="/longonot.jpg" alt="" fill className={styles.cardImg} />
       </div>

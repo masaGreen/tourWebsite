@@ -28,7 +28,9 @@
     padding: 0.8rem;
     flex:1.2;
     display: flex;
-    
+    color: black;
+    font-size: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     flex-direction: column;
     gap:2rem;
 }

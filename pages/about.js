@@ -4,7 +4,7 @@ export default function About() {
   return (
    
 
-    <div className={styles.card}>
+    <div className={styles.card} id="card">
       <div className={styles.cardContent}>
         <div className={styles.cardDescription}>
           <p>

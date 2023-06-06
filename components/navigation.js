@@ -122,7 +122,7 @@ export default function Navigation() {
               }}
             />
             </Link>
-            <Link href={"/"} className={`${styles.link} ${styles.d}`}>
+            <Link href={"/contacts"} className={`${styles.link} ${styles.d}`}>
              <h4 >Contacts</h4>
              </Link>
             

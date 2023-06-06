@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Card({ item }) {
   return (
-    <div className={styles.card}>
+    <div className={styles.card} id="card">
       <div className={styles.cardImgwrapper}>
         <Image src={`/${item?.image}`} alt={`${item?.title}`} fill className={styles.cardImg} />
       </div>
